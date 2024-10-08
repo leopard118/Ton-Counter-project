@@ -38,7 +38,7 @@ export function useMainContract() {
           recent_sender: val.recent_sender,
           owner_address: val.owner_address,
         });
-        setBalance(number / 1000000000);
+        setBalance(number);
         await sleep(5000); // sleep 5 seconds and poll value again
         getValue();
       } catch (e) {
