@@ -2,16 +2,18 @@
 
 # Define co-authors' names and emails
 COAUTHOR_1_NAME="Morning-Star213"
-COAUTHOR_1_EMAIL="artom.sokolovsky.888@gmail.com"
+COAUTHOR_1_EMAIL="artem.sokolovsky.888@gmail.com"
 
+# COAUTHOR_2_NAME="techteam"
+# COAUTHOR_2_EMAIL="khomiakovandrii98@gmail.com"
 COAUTHOR_2_NAME="unitop010"
 COAUTHOR_2_EMAIL="techhosting619@gmail.com"
 
-COAUTHOR_3_NAME="aoki koho"
-COAUTHOR_3_EMAIL="rabbit102699@gmail.com"
+COAUTHOR_3_NAME="Rabbit"
+COAUTHOR_3_EMAIL="rabbit1026hg@gmail.com"
 
 # Loop to create and merge pull requests 10 times
-for i in {1..10}
+for i in {1..12}
 do
     # Make a change in the dev branch
     echo "NEW_ENV_VARIABLE='value'" >> .envexample
